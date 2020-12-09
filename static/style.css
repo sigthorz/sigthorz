@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.header{
+  font-size: 5vw;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  width: 100%;
+}
+
+.header > p{
+  margin:1vw;
+}
+
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    padding:
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:0.7% 2% 0.7% 2%;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+  margin: auto;
+  width: 60vw;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.stoneisland{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+.section-title{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 200%;
+}
+.card-row{
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 5%;
+}
+
+.card{
+  margin:auto;
+  width: 17%;
+  text-align: center;
+}
+
+.product-preview{
+  width: 100%;
+  border:1px solid #ccc;
+  flex-flow: row;
+  display: flex;
+}
+
+.image-preview{
+  width: 35%;
+  margin: 2%;
+  margin-right: 0%;
+}
+.text-preview{
+  width:64%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 130%;
+}
+.image-small{
+  margin:auto;
+  width: 100%;
+}
+
+.um-okkur{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 130%;
+}
+
+.um-okkur-titill{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 200%;
+}
+
+.um-okkur-texti{
+  margin: 2%;
+  padding-bottom: 3%;
+}
